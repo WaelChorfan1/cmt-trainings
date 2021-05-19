@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pausiert_bis_nur_wenn_pausiert_CHECK</fullName>
+    <active>true</active>
+    <description>&quot;bis&quot; kann nur ausgefüllt sein, wenn die Checkbox &quot;pausiert&quot; befüllt ist.</description>
+    <errorConditionFormula>Pausiert__c = false &amp;&amp; !ISBLANK(pausiert_bis__c) &amp;&amp; ISBLANK(pausiert_ab__c)</errorConditionFormula>
+    <errorMessage>Eine zeitliche Pausierung ist nur möglich, wenn das Feld &quot;Pausiert&quot; angehakt ist oder ein Startzeitpunkt angegeben wird.</errorMessage>
+</ValidationRule>

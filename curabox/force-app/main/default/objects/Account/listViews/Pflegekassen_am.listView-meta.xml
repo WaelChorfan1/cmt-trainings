@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pflegekassen_am</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>IK_Nummer__c</columns>
+    <columns>Kanal_Unterpunkt__c</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>Weitere_E_Mail__c</columns>
+    <columns>ACCOUNT.PHONE2</columns>
+    <columns>Kooperativ__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.X03_Kostentr_ger</value>
+    </filters>
+    <filters>
+        <field>PG51_Abrechnungs_Methode__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Pflegekassen am</label>
+    <sharedTo>
+        <role>Gesch_ftsf_hrung</role>
+        <roleAndSubordinates>HomeCare</roleAndSubordinates>
+    </sharedTo>
+</ListView>

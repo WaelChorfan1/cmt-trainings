@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Liefererlaubnis__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Wenn &quot;Ja&quot; - wird die Fuktion &quot;Bedarf reduzieren&quot; NICHT zugreifen</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Wenn &quot;Ja&quot; - wird die Fuktion &quot;Bedarf reduzieren&quot; NICHT zugreifen</inlineHelpText>
+    <label>Liefererlaubnis</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

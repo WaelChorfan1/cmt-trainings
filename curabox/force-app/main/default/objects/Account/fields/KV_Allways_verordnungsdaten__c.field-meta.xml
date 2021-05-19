@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KV_Allways_verordnungsdaten__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Die verordnungsdaten werden immer an die Krankenkasse gesendet. Unabhägig von Anhangsart</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Die verordnungsdaten werden immer an die Krankenkasse gesendet. Unabhägig von Anhangsart</inlineHelpText>
+    <label>KV Allways verordnungsdaten</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

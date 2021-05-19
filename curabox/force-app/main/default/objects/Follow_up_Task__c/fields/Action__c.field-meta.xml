@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action__c</fullName>
+    <externalId>false</externalId>
+    <label>Action</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LeadKonvertierung</fullName>
+                <default>false</default>
+                <label>LeadKonvertierung</label>
+            </value>
+            <value>
+                <fullName>Versand Formular an Interessent</fullName>
+                <default>false</default>
+                <label>Versand Formular an Interessent</label>
+            </value>
+            <value>
+                <fullName>KV an Krankenkasse übermittelt</fullName>
+                <default>false</default>
+                <label>KV an Krankenkasse übermittelt</label>
+            </value>
+            <value>
+                <fullName>Brief erstellen</fullName>
+                <default>false</default>
+                <label>Brief erstellen</label>
+            </value>
+            <value>
+                <fullName>Auftrag pausieren</fullName>
+                <default>false</default>
+                <label>Auftrag pausieren</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

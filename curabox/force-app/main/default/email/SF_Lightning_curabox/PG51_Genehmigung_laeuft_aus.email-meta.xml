@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>HTML</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>04 Die Kostenübernahme für die waschbaren Bettschutzeinlagen endet PG51</name>
+    <style>none</style>
+    <subject>Ihre curabox – Kostenübernahme endet: Waschbare Bettschutzeinlagen (PG 51)</subject>
+    <textOnly>Sehr geehrte/r Frau/Herr _XX_,
+
+vielen Dank für Ihr bisheriges Vertrauen in den curabox - Service.
+
+Hiermit möchten wir Sie darüber informieren, dass der Antrag auf Kostenübernahme in Kürze ausläuft. 
+
+Damit Sie auch weiterhin von den waschbaren Bettschutzeinlagen (PG51) profitieren können, senden Sie uns diesen einfach ausgefüllt und unterschrieben mithilfe des beigelegten kostenfreien Rückumschlages oder eingescannt per E-Mail zurück. Wir werden wie gewohnt alle weiteren Schritte für Sie übernehmen!
+
+Sollten Sie noch Fragen haben oder Hilfe beim Ausfüllen benötigen, helfen wir Ihnen gerne persönlich weiter unter Tel: 040 87409757 oder per E-Mail: curabox@pflege.de.
+
+Wünschen Sie keine waschbaren Bettschutzeinlagen mehr, geben Sie uns bitte eine Rückmeldung, damit wir den Vorgang einstellen können.
+
+Herzliche Grüße aus Hamburg,
+
+Ihr curabox-Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

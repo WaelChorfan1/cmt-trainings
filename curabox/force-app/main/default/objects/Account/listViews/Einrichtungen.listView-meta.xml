@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Einrichtungen</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>Weitere_Kontaktperson__c</columns>
+    <columns>Start_Partnerschaft__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.X02_station_re_Pflegeeinrichtung</value>
+    </filters>
+    <label>Stationäre Einrichtungen</label>
+    <language>de</language>
+    <sharedTo>
+        <role>Gesch_ftsf_hrung</role>
+        <role>HomeCare</role>
+        <role>Partnerbetreuung</role>
+        <role>Vertrieb_PWE</role>
+        <role>curabox_Mitarbeiter</role>
+        <role>curabox_Vertrieb</role>
+    </sharedTo>
+</ListView>

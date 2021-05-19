@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aktivierung_am__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Datumsfeld für den Vertrieb. Gibt an, wann eine Aktivierung des Partners stattgefunden hat.</inlineHelpText>
+    <label>Aktivierung am</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

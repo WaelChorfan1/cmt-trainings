@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Original_contact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>save original contact for a duplicate.</description>
+    <externalId>false</externalId>
+    <label>Original contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Contacts (Original contact)</relationshipLabel>
+    <relationshipName>Contacts3</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

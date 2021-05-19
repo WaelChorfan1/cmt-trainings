@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>bermittlung__c</fullName>
+    <description>Dient der Speicherung der Information wie die Abrechnungsdaten an den Abrechner übertragen werden</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Dient der Speicherung der Information wie die Abrechnungsdaten an den Abrechner übertragen werden</inlineHelpText>
+    <label>Übermittlung</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>per Fax</fullName>
+                <default>false</default>
+                <label>per Fax</label>
+            </value>
+            <value>
+                <fullName>per Post</fullName>
+                <default>false</default>
+                <label>per Post</label>
+            </value>
+            <value>
+                <fullName>per Mail</fullName>
+                <default>false</default>
+                <label>per Mail</label>
+            </value>
+            <value>
+                <fullName>elektronische Datenübertragung</fullName>
+                <default>false</default>
+                <label>elektronische Datenübertragung</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

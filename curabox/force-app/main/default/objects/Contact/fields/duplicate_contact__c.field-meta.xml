@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>duplicate_contact__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Original_contact__c != NULL, true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>duplicate contact</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

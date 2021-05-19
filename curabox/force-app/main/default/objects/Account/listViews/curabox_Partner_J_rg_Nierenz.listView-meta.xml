@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>curabox_Partner_J_rg_Nierenz</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STREET</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>Start_Partnerschaft__c</columns>
+    <columns>Zugang_letzter_Kunde__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>Anzahl_der_Kunden__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Nierenz</value>
+    </filters>
+    <label>curabox Partner - Jörg Nierenz</label>
+    <language>de</language>
+    <sharedTo>
+        <role>Gesch_ftsf_hrung</role>
+    </sharedTo>
+</ListView>

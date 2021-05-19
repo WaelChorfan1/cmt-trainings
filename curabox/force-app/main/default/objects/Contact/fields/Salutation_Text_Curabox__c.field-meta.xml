@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Salutation_Text_Curabox__c</fullName>
+    <externalId>false</externalId>
+    <formula>if ( ISPICKVAL( Salutation , &apos;Herr&apos;),
+&apos;Lieber Herr &apos;,
+if ( ISPICKVAL( Salutation , &apos;Frau&apos;),
+&apos;Liebe Frau &apos;,
+&apos;Sehr geehrte Damen und Herren&apos;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Anrede Text Curabox</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

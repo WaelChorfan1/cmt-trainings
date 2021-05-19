@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Marketing_Cloud_ID__c</fullName>
+    <description>Marketing Cloud ID will be the identifier between the two clouds. The ID will only be displayed and “calculated” for ZWB datasets. It displays the sf.com Lead ID in lead conversion. and displayed ContactID in creating new Contact</description>
+    <externalId>false</externalId>
+    <label>Marketing_Cloud_ID</label>
+    <length>128</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

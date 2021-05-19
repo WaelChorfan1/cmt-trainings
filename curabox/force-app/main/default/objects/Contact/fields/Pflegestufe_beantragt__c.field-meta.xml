@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Pflegestufe_beantragt__c</fullName>
+    <externalId>false</externalId>
+    <label>Pflegestufe beantragt</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>keine</fullName>
+                <default>false</default>
+                <label>keine</label>
+            </value>
+            <value>
+                <fullName>PS beantragt</fullName>
+                <default>false</default>
+                <label>PS beantragt</label>
+            </value>
+            <value>
+                <fullName>PS1 beantragt</fullName>
+                <default>false</default>
+                <label>PS1 beantragt</label>
+            </value>
+            <value>
+                <fullName>PS2 beantragt</fullName>
+                <default>false</default>
+                <label>PS2 beantragt</label>
+            </value>
+            <value>
+                <fullName>PS3 beantragt</fullName>
+                <default>false</default>
+                <label>PS3 beantragt</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

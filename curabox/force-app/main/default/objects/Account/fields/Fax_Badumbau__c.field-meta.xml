@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fax_Badumbau__c</fullName>
+    <description>Curabox and Badumbau Krankenkassen have a different fax number. This field is only for the fax number of the Badumbau Kassen.</description>
+    <externalId>false</externalId>
+    <label>Fax Badumbau</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Phone</type>
+</CustomField>

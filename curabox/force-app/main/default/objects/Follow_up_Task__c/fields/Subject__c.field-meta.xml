@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subject__c</fullName>
+    <externalId>false</externalId>
+    <label>Thema</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lieferung angehalten</fullName>
+                <default>false</default>
+                <label>Lieferung angehalten</label>
+            </value>
+            <value>
+                <fullName>Antrag unvollständig</fullName>
+                <default>false</default>
+                <label>Antrag unvollständig</label>
+            </value>
+            <value>
+                <fullName>Kündigung einstellen</fullName>
+                <default>false</default>
+                <label>Kündigung einstellen</label>
+            </value>
+            <value>
+                <fullName>Rückruf</fullName>
+                <default>false</default>
+                <label>Rückruf</label>
+            </value>
+            <value>
+                <fullName>Bedarfsmeldung</fullName>
+                <default>false</default>
+                <label>Bedarfsmeldung</label>
+            </value>
+            <value>
+                <fullName>Klaerung AOK Rheinland/HH</fullName>
+                <default>false</default>
+                <label>Klaerung AOK Rheinland/HH</label>
+            </value>
+            <value>
+                <fullName>Nachfassen bei PK wg. offener KÜ</fullName>
+                <default>false</default>
+                <label>Nachfassen bei PK wg. offener KÜ</label>
+            </value>
+            <value>
+                <fullName>Adressänderung einstellen</fullName>
+                <default>false</default>
+                <label>Adressänderung einstellen</label>
+            </value>
+            <value>
+                <fullName>Storno</fullName>
+                <default>false</default>
+                <label>Storno</label>
+            </value>
+            <value>
+                <fullName>Storno - Rückruf</fullName>
+                <default>false</default>
+                <label>Storno - Rückruf</label>
+            </value>
+            <value>
+                <fullName>Storno- Rückmeldung</fullName>
+                <default>false</default>
+                <label>Storno- Rückmeldung</label>
+            </value>
+            <value>
+                <fullName>Wohin soll cb geliefert werden?</fullName>
+                <default>false</default>
+                <label>Wohin soll cb geliefert werden?</label>
+            </value>
+            <value>
+                <fullName>Ablehnung</fullName>
+                <default>false</default>
+                <label>Ablehnung</label>
+            </value>
+            <value>
+                <fullName>PG51 genehmigt</fullName>
+                <default>false</default>
+                <label>PG51 genehmigt</label>
+            </value>
+            <value>
+                <fullName>Sonstiges</fullName>
+                <default>false</default>
+                <label>Sonstiges</label>
+            </value>
+            <value>
+                <fullName>Nachlieferung</fullName>
+                <default>false</default>
+                <label>Nachlieferung</label>
+            </value>
+            <value>
+                <fullName>Genehmigung PG54 läuft aus</fullName>
+                <default>false</default>
+                <label>Genehmigung PG54 läuft aus</label>
+            </value>
+            <value>
+                <fullName>Genehmigung PG51 läuft aus</fullName>
+                <default>false</default>
+                <label>Genehmigung PG51 läuft aus</label>
+            </value>
+            <value>
+                <fullName>DPD Rückläufer</fullName>
+                <default>false</default>
+                <label>DPD Rückläufer</label>
+            </value>
+            <value>
+                <fullName>DPD- Zustellhindernisse</fullName>
+                <default>false</default>
+                <label>DPD- Zustellhindernisse</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

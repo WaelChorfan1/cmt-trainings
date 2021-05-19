@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Medikamente__c</fullName>
+    <externalId>false</externalId>
+    <label>Medikamente</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ASS</fullName>
+                <default>false</default>
+                <label>ASS</label>
+            </value>
+            <value>
+                <fullName>Blutdruckmedikamente</fullName>
+                <default>false</default>
+                <label>Blutdruckmedikamente</label>
+            </value>
+            <value>
+                <fullName>Epilepsie Mekidamente</fullName>
+                <default>false</default>
+                <label>Epilepsie Mekidamente</label>
+            </value>
+            <value>
+                <fullName>Insulin</fullName>
+                <default>false</default>
+                <label>Insulin</label>
+            </value>
+            <value>
+                <fullName>Marcumar</fullName>
+                <default>false</default>
+                <label>Marcumar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Versichertenstatus__c</fullName>
+    <description>Wie ist der Kunde versichert</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Wie ist der Kunde versichert?</inlineHelpText>
+    <label>Versichertenstatus</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gesetzlich</fullName>
+                <default>false</default>
+                <label>Gesetzlich</label>
+            </value>
+            <value>
+                <fullName>Privat</fullName>
+                <default>false</default>
+                <label>Privat</label>
+            </value>
+            <value>
+                <fullName>Gesetzlich + ZV</fullName>
+                <default>false</default>
+                <label>Gesetzlich + ZV</label>
+            </value>
+            <value>
+                <fullName>Privat + ZV</fullName>
+                <default>false</default>
+                <label>Privat + ZV</label>
+            </value>
+            <value>
+                <fullName>Anderer Kostenträger/ Sozialamt</fullName>
+                <default>false</default>
+                <label>Anderer Kostenträger/ Sozialamt</label>
+            </value>
+            <value>
+                <fullName>Selbstzahler</fullName>
+                <default>false</default>
+                <label>Selbstzahler</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

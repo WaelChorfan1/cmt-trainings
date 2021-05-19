@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Empf_nger_Adresse_Rechnungen__c</fullName>
+    <description>Empfänger der monatlichen Rechnungen für vermittelte Anfragen. &quot;Untergeordnete Account&quot; funktioniert nur, wenn nur ein Account angehangen ist.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Empfänger der monatlichen Rechnungen für vermittelte Anfragen. &quot;Untergeordnete Account&quot; funktioniert nur, wenn nur ein Account angehangen ist.</inlineHelpText>
+    <label>Empfänger Adresse Rechnungen</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Partner</fullName>
+                <default>true</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Träger</fullName>
+                <default>false</default>
+                <label>Träger</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

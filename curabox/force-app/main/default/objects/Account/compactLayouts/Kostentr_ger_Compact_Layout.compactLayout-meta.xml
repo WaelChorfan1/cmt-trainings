@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kostentr_ger_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Sonderwunsch__c</fields>
+    <fields>Phone</fields>
+    <fields>Weitere_E_Mail__c</fields>
+    <fields>Fax</fields>
+    <label>Kostenträger Compact Layout</label>
+</CompactLayout>

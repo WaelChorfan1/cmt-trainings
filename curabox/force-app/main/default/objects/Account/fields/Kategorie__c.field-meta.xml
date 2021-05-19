@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kategorie__c</fullName>
+    <externalId>false</externalId>
+    <label>Kanal</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>01 Ambulante Pflegedienste</fullName>
+                <default>false</default>
+                <label>01 Ambulante Pflegedienste</label>
+            </value>
+            <value>
+                <fullName>02 Stat. Pflegeeinrichtungen</fullName>
+                <default>false</default>
+                <label>02 Stat. Pflegeeinrichtungen</label>
+            </value>
+            <value>
+                <fullName>03 Kostenträger</fullName>
+                <default>false</default>
+                <label>03 Kostenträger</label>
+            </value>
+            <value>
+                <fullName>04 Seniorenbetreuer (B2C)</fullName>
+                <default>false</default>
+                <label>04 Seniorenbetreuer (B2C)</label>
+            </value>
+            <value>
+                <fullName>05 Berater des Pflegehaushalts</fullName>
+                <default>false</default>
+                <label>05 Berater des Pflegehaushalts</label>
+            </value>
+            <value>
+                <fullName>06 Dienstleister Pflegehaushalt</fullName>
+                <default>false</default>
+                <label>06 Dienstleister Pflegehaushalt</label>
+            </value>
+            <value>
+                <fullName>07 Praxen (Hausärzte/APIs)</fullName>
+                <default>false</default>
+                <label>07 Praxen (Hausärzte/APIs)</label>
+            </value>
+            <value>
+                <fullName>08 Kliniken (Akut/AHB/Reha)</fullName>
+                <default>false</default>
+                <label>08 Kliniken (Akut/AHB/Reha)</label>
+            </value>
+            <value>
+                <fullName>09 Apotheken</fullName>
+                <default>false</default>
+                <label>09 Apotheken</label>
+            </value>
+            <value>
+                <fullName>10 Sanitätshäuser</fullName>
+                <default>false</default>
+                <label>10 Sanitätshäuser</label>
+            </value>
+            <value>
+                <fullName>11 Gesundheitsberufe</fullName>
+                <default>false</default>
+                <label>11 Gesundheitsberufe</label>
+            </value>
+            <value>
+                <fullName>12 Interessengruppen</fullName>
+                <default>false</default>
+                <label>12 Interessengruppen</label>
+            </value>
+            <value>
+                <fullName>13 Werbung/PR</fullName>
+                <default>false</default>
+                <label>13 Werbung/PR</label>
+            </value>
+            <value>
+                <fullName>14 Direktmarketing</fullName>
+                <default>false</default>
+                <label>14 Direktmarketing</label>
+            </value>
+            <value>
+                <fullName>15 Leadmarketing</fullName>
+                <default>false</default>
+                <label>15 Leadmarketing</label>
+            </value>
+            <value>
+                <fullName>16 Database Marketing</fullName>
+                <default>false</default>
+                <label>16 Database Marketing</label>
+            </value>
+            <value>
+                <fullName>17 Messen/Veranstaltungen</fullName>
+                <default>false</default>
+                <label>17 Messen/Veranstaltungen</label>
+            </value>
+            <value>
+                <fullName>18 Retail/Point of Sale</fullName>
+                <default>false</default>
+                <label>18 Retail/Point of Sale</label>
+            </value>
+            <value>
+                <fullName>Lieferanten</fullName>
+                <default>false</default>
+                <label>Lieferanten</label>
+            </value>
+            <value>
+                <fullName>Sonstige</fullName>
+                <default>false</default>
+                <label>Sonstige</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

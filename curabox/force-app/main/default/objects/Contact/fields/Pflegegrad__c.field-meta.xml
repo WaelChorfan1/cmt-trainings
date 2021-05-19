@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Pflegegrad__c</fullName>
+    <externalId>false</externalId>
+    <label>Pflegegrad</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1</fullName>
+                <default>false</default>
+                <label>1</label>
+            </value>
+            <value>
+                <fullName>2</fullName>
+                <default>false</default>
+                <label>2</label>
+            </value>
+            <value>
+                <fullName>3</fullName>
+                <default>false</default>
+                <label>3</label>
+            </value>
+            <value>
+                <fullName>4</fullName>
+                <default>false</default>
+                <label>4</label>
+            </value>
+            <value>
+                <fullName>5</fullName>
+                <default>false</default>
+                <label>5</label>
+            </value>
+            <value>
+                <fullName>Pflegegrad vorhanden</fullName>
+                <default>false</default>
+                <label>Pflegegrad vorhanden</label>
+            </value>
+            <value>
+                <fullName>Pflegegrad beantragt</fullName>
+                <default>false</default>
+                <label>Pflegegrad beantragt</label>
+            </value>
+            <value>
+                <fullName>Noch unklar</fullName>
+                <default>false</default>
+                <label>Noch unklar</label>
+            </value>
+            <value>
+                <fullName>Keinen Pflegegrad</fullName>
+                <default>false</default>
+                <label>Keinen Pflegegrad</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

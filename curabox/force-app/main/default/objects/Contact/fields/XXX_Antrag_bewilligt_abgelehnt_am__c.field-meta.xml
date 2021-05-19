@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>XXX_Antrag_bewilligt_abgelehnt_am__c</fullName>
+    <description>Dieses Datum sollte wenn vermutlich aus der Genehmigung gespeichert werden</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Datum der Antragsgenehmigung bzw. - Ablehnung</inlineHelpText>
+    <label>XXX Antrag bewilligt/abgelehnt am</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pflegeformen__c</fullName>
+    <externalId>false</externalId>
+    <label>Pflegeformen</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AD (ambulanter Dienst)</fullName>
+                <default>false</default>
+                <label>AD (ambulanter Dienst)</label>
+            </value>
+            <value>
+                <fullName>BD (Betreuungsdienst)</fullName>
+                <default>false</default>
+                <label>BD (Betreuungsdienst)</label>
+            </value>
+            <value>
+                <fullName>BW (Betreutes Wohnen)</fullName>
+                <default>false</default>
+                <label>BW (Betreutes Wohnen)</label>
+            </value>
+            <value>
+                <fullName>IP (Intensiv-Pflege)</fullName>
+                <default>false</default>
+                <label>IP (Intensiv-Pflege)</label>
+            </value>
+            <value>
+                <fullName>PH (Pflegeheim)</fullName>
+                <default>false</default>
+                <label>PH (Pflegeheim)</label>
+            </value>
+            <value>
+                <fullName>TP (Tagespflege)</fullName>
+                <default>false</default>
+                <label>TP (Tagespflege)</label>
+            </value>
+            <value>
+                <fullName>WG (Wohngemeinschaft)</fullName>
+                <default>false</default>
+                <label>WG (Wohngemeinschaft)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

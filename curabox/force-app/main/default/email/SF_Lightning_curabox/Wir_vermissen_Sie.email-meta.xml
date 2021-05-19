@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>HTML</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>02a Wir vermissen Sie (PG54+PG51)</name>
+    <style>none</style>
+    <subject>📦 Ihre curabox - Wir vermissen Sie</subject>
+    <textOnly>Sehr {!Contact.Salutation} {!Contact.Name},
+
+vielen Dank für Ihr bisheriges Vertrauen in den curabox - Service.
+
+Auf Wunsch haben wir die Lieferung der curabox für Sie pausiert.
+Da Ihre Versorgung uns sehr am Herzen liegt, erkundigen wir uns hiermit, ob Sie derzeit weitere Pflegehilfsmittel benötigen. Gerne beliefern wir Sie weiterhin kostenlos und passen die curabox Ihren Bedürfnissen an. Falls Ihnen zu viele Produkte in der curabox enthalten sein sollten, können wir das Lieferintervall auch gerne Ihren Wünschen entsprechend veranlassen. 
+
+Unter Angabe Ihrer Kundennummer {!Contact.WorkAroundTemplatesAccountNumber__c} und Ihrer E-Mailadresse können Sie in Zukunft ganz bequem die Zusammenstellung Ihrer Box, das Lieferintervall, die Lieferanschrift und weitere Punkte ändern.
+
+Wartezeiten in der Hotline fallen dadurch weg. Die Seite finden Sie unter dem folgenden Link. Probieren Sie es gerne einmal aus www.curabox/curabox-aendern.
+
+Besteht kein weiteres Interesse an kostenfreien Pflegehilfsmitteln oder auch kein Anspruch mehr (Einzug ins Pflegeheim, erloschener Pflegegrad, pflegebedürftige Person ist verstorben) bitten wir Sie uns dies zeitnah mitzuteilen.
+
+Für Rückfragen steht Ihnen unser Team gerne zur Verfügung.
+
+Herzliche Grüße aus Hamburg,
+
+Ihr curabox-Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

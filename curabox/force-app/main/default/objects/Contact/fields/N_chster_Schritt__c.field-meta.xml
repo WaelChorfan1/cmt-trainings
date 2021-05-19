@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>N_chster_Schritt__c</fullName>
+    <description>Dieses Feld kommt aus dem Lead und gibt an, was als nächstes geschehen soll. Anhand der Angabe werden Bestellungen ausgelöst oder z.B. Wiedervorlagen generiert.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Dieses Feld kommt aus dem Lead und gibt an, was als nächstes geschehen soll. Anhand der Angabe werden Bestellungen ausgelöst oder z.B. Wiedervorlagen generiert.</inlineHelpText>
+    <label>Nächster Schritt</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gratisprobe</fullName>
+                <default>false</default>
+                <label>Gratisprobe</label>
+            </value>
+            <value>
+                <fullName>Rezept</fullName>
+                <default>false</default>
+                <label>Rezept</label>
+            </value>
+            <value>
+                <fullName>Beratung</fullName>
+                <default>false</default>
+                <label>Beratung</label>
+            </value>
+            <value>
+                <fullName>CB_Post</fullName>
+                <default>false</default>
+                <label>CB_Post</label>
+            </value>
+            <value>
+                <fullName>CB_Mail</fullName>
+                <default>false</default>
+                <label>CB_Mail</label>
+            </value>
+            <value>
+                <fullName>CB_Assistent_mail</fullName>
+                <default>false</default>
+                <label>CB_Assistent_mail</label>
+            </value>
+            <value>
+                <fullName>CB_Assistent_post</fullName>
+                <default>false</default>
+                <label>CB_Assistent_post</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kontingent_Auslastung_pro_Woche__c</fullName>
+    <description>Wieviele Anfragen sind an den Partner diese Woche übermittelt worden.</description>
+    <externalId>false</externalId>
+    <label>Kontingent Auslastung pro Woche</label>
+    <summarizedField>Partner_Produkte__c.Kontingent_Auslastung__c</summarizedField>
+    <summaryForeignKey>Partner_Produkte__c.Partner__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

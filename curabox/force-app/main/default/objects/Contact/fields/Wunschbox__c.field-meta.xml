@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Wunschbox__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The curabox requested by the customer.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Hier ist die gewünschte Box des Kunden auszuwählen.</inlineHelpText>
+    <label>Wunschbox</label>
+    <referenceTo>curabox__c</referenceTo>
+    <relationshipLabel>Kontakte</relationshipLabel>
+    <relationshipName>Kontakte</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

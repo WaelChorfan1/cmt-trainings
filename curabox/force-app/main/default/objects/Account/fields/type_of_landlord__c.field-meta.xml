@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>type_of_landlord__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Wählen Sie hier die Vermieterart aus</inlineHelpText>
+    <label>Vermieterart</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Privater Vermieter</fullName>
+                <default>false</default>
+                <label>Privater Vermieter</label>
+            </value>
+            <value>
+                <fullName>Wohnungsgesellschaft</fullName>
+                <default>false</default>
+                <label>Wohnungsgesellschaft</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

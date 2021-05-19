@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Range_of_care_service__c</fullName>
+    <description>Reichweite des ambulanten Dienstes</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Reichweite des ambulanten Dienstes</inlineHelpText>
+    <label>Reichweite des ADs</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Städtisch</fullName>
+                <default>false</default>
+                <label>Städtisch</label>
+            </value>
+            <value>
+                <fullName>Ländlich</fullName>
+                <default>false</default>
+                <label>Ländlich</label>
+            </value>
+            <value>
+                <fullName>Betreuung von Wohnformen</fullName>
+                <default>false</default>
+                <label>Betreuung von Wohnformen</label>
+            </value>
+            <value>
+                <fullName>Tagespflege</fullName>
+                <default>false</default>
+                <label>Tagespflege</label>
+            </value>
+            <value>
+                <fullName>Beratungseinsätze</fullName>
+                <default>false</default>
+                <label>Beratungseinsätze</label>
+            </value>
+            <value>
+                <fullName>Mehrere Standorte</fullName>
+                <default>false</default>
+                <label>Mehrere Standorte</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

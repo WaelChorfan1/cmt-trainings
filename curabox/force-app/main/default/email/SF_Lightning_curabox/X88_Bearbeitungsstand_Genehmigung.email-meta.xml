@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>HTML</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>88 Bearbeitungsstand Genehmigung</name>
+    <style>none</style>
+    <subject>Bearbeitungsstand Genehmigung</subject>
+    <textOnly>Guten Tag {!Contact.Salutation} {!Contact.LastName},
+
+Ihren Antrag auf kostenlose Pflegehilfsmittel haben wir dankend erhalten. Derzeit liegt uns von Ihrer Pflegekasse jedoch noch keine Genehmigung vor. Somit konnten wir noch keine Lieferung auf den Weg bringen. 
+Wir wären Ihnen sehr verbunden, wenn Sie sich über den aktuellen Bearbeitungsstand bei Ihrer Pflegekasse informieren. Erfahrungsgemäß erfolgt die erste Kommunikation mit den Versicherten selbst.
+Sollten Sie bereits eine schriftliche Genehmigung erhalten haben, schicken Sie uns diese gerne via E-Mail, Fax oder Brief zu. 
+
+Vielen Dank für Ihre Kooperation. Für Rückfragen steht Ihnen unser Team gerne zur Verfügung.
+
+Herzliche Grüße aus Hamburg,  
+
+Ihr curabox-Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

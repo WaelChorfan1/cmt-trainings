@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kontingent_offen_Partner__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+!ISNULL(Kontingent_pro_Woche__c),
+Kontingent_pro_Woche__c -  Kontingent_Auslastung_pro_Woche__c,
+NULL
+)</formula>
+    <label>Offenes Firmen-Kontingent pro Woche</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

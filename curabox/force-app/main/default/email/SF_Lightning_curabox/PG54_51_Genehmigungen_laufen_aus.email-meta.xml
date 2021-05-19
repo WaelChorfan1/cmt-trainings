@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>HTML</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>03 Die Kostenübernahme für die Pflegehilfsmittel zum Verbrauch endet  54+51</name>
+    <style>none</style>
+    <subject>Ihre curabox – Die Kostenübernahme für die Pflegehilfsmittel zum Verbrauch endet</subject>
+    <textOnly>Sehr geehrte/r Frau/Herr _XX_,
+
+vielen Dank für Ihr bisheriges Vertrauen in den curabox - Service.
+
+Hiermit möchten wir Sie darüber informieren, dass der Antrag auf Kostenübernahme in Kürze ausläuft. 
+
+Damit Sie auch weiterhin von den Pflegehilfsmitteln profitieren können, senden Sie uns diesen einfach ausgefüllt und unterschrieben mithilfe des beigelegten kostenfreien Rückumschlages oder eingescannt per E-Mail zurück. Wir werden wie gewohnt alle weiteren Schritte für Sie übernehmen!
+
+Sollten Sie noch Fragen haben oder Hilfe beim Ausfüllen benötigen, helfen wir Ihnen gerne persönlich weiter unter Tel: 040 87 409 757 oder per E-Mail: curabox@pflege.de.
+
+
+Herzliche Grüße aus Hamburg,
+
+Ihr curabox-Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

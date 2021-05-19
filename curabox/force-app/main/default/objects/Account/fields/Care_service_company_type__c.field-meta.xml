@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Care_service_company_type__c</fullName>
+    <description>Unternehmensform der Ambulanten Dienste</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Unternehmensform der Ambulanten Dienste</inlineHelpText>
+    <label>Unternehmensform</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Privat</fullName>
+                <default>false</default>
+                <label>Privat</label>
+            </value>
+            <value>
+                <fullName>Gemeinnützig</fullName>
+                <default>false</default>
+                <label>Gemeinnützig</label>
+            </value>
+            <value>
+                <fullName>Wohlfahrt</fullName>
+                <default>false</default>
+                <label>Wohlfahrt</label>
+            </value>
+            <value>
+                <fullName>Trägerschaft</fullName>
+                <default>false</default>
+                <label>Trägerschaft</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

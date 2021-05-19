@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alle_Partner_ohne_Kunden</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>Weitere_E_Mail__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.X01_Pflegedienste,Account.X04_24_h_Betreuung</value>
+    </filters>
+    <filters>
+        <field>Anzahl_der_Kunden__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Akquiriert_worden_durch__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Alle Partner ohne Kunden</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>curabox_Vertrieb</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pausiert_bis__c</fullName>
+    <description>Bis zu welchem Tag soll der Partner pausiert werden? (Pausiert wird inklusive dem Tag!)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Bis zu welchem Tag soll der Partner pausiert werden? (Pausiert wird inklusive dem Tag!)</inlineHelpText>
+    <label>pausiert bis</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Akquiriert_worden_durch__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Hier bitte eintragen welcher Vertriebsmitarbeiter diesen Partner akquiriert hat</inlineHelpText>
+    <label>Akquiriert worden durch</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Aletta Bautista</fullName>
+                <default>false</default>
+                <label>Aletta Bautista</label>
+            </value>
+            <value>
+                <fullName>Benedikt Zacher</fullName>
+                <default>false</default>
+                <label>Benedikt Zacher</label>
+            </value>
+            <value>
+                <fullName>Caroline Stahl</fullName>
+                <default>false</default>
+                <label>Caroline Stahl</label>
+            </value>
+            <value>
+                <fullName>Chris Ruprecht</fullName>
+                <default>false</default>
+                <label>Chris Ruprecht</label>
+            </value>
+            <value>
+                <fullName>Christian Schmidt</fullName>
+                <default>false</default>
+                <label>Christian Schmidt</label>
+            </value>
+            <value>
+                <fullName>Florian Medag</fullName>
+                <default>false</default>
+                <label>Florian Medag</label>
+            </value>
+            <value>
+                <fullName>Florian Mohr</fullName>
+                <default>false</default>
+                <label>Florian Mohr</label>
+            </value>
+            <value>
+                <fullName>Harry Hehlke</fullName>
+                <default>false</default>
+                <label>Harry Hehlke</label>
+            </value>
+            <value>
+                <fullName>Hein-Hinnerk Hübers</fullName>
+                <default>false</default>
+                <label>Hein-Hinnerk Hübers</label>
+            </value>
+            <value>
+                <fullName>Henning Pramschiefer</fullName>
+                <default>false</default>
+                <label>Henning Pramschiefer</label>
+            </value>
+            <value>
+                <fullName>Johannes Peter</fullName>
+                <default>false</default>
+                <label>Johannes Peter</label>
+            </value>
+            <value>
+                <fullName>Jörg Nierenz</fullName>
+                <default>false</default>
+                <label>Jörg Nierenz</label>
+            </value>
+            <value>
+                <fullName>Julia Heinen</fullName>
+                <default>false</default>
+                <label>Julia Heinen</label>
+            </value>
+            <value>
+                <fullName>Justyna Tretowski</fullName>
+                <default>false</default>
+                <label>Justyna Tretowski</label>
+            </value>
+            <value>
+                <fullName>Karina Redzinski</fullName>
+                <default>false</default>
+                <label>Karina Redzinski</label>
+            </value>
+            <value>
+                <fullName>Katharina Bach</fullName>
+                <default>false</default>
+                <label>Katharina Bach</label>
+            </value>
+            <value>
+                <fullName>Katharina Claes</fullName>
+                <default>false</default>
+                <label>Katharina Claes</label>
+            </value>
+            <value>
+                <fullName>Kerem Köksal</fullName>
+                <default>false</default>
+                <label>Kerem Köksal</label>
+            </value>
+            <value>
+                <fullName>Kristof Wehrhahn</fullName>
+                <default>false</default>
+                <label>Kristof Wehrhahn</label>
+            </value>
+            <value>
+                <fullName>Lars Kilchert</fullName>
+                <default>false</default>
+                <label>Lars Kilchert</label>
+            </value>
+            <value>
+                <fullName>Lisa Aalberts</fullName>
+                <default>false</default>
+                <label>Lisa Aalberts</label>
+            </value>
+            <value>
+                <fullName>Marita Harms</fullName>
+                <default>false</default>
+                <label>Marita Harms</label>
+            </value>
+            <value>
+                <fullName>Michael Büning</fullName>
+                <default>false</default>
+                <label>Michael Büning</label>
+            </value>
+            <value>
+                <fullName>Nicole Weingarten</fullName>
+                <default>false</default>
+                <label>Nicole Weingarten</label>
+            </value>
+            <value>
+                <fullName>Nico Schlüter</fullName>
+                <default>false</default>
+                <label>Nico Schlüter</label>
+            </value>
+            <value>
+                <fullName>Nils Lange</fullName>
+                <default>false</default>
+                <label>Nils Lange</label>
+            </value>
+            <value>
+                <fullName>Oliver Peikert</fullName>
+                <default>false</default>
+                <label>Oliver Peikert</label>
+            </value>
+            <value>
+                <fullName>Raschid Laamouri</fullName>
+                <default>false</default>
+                <label>Raschid Laamouri</label>
+            </value>
+            <value>
+                <fullName>Ricarda Strelau</fullName>
+                <default>false</default>
+                <label>Ricarda Strelau</label>
+            </value>
+            <value>
+                <fullName>Robert Feist</fullName>
+                <default>false</default>
+                <label>Robert Feist</label>
+            </value>
+            <value>
+                <fullName>Robert Fischer</fullName>
+                <default>false</default>
+                <label>Robert Fischer</label>
+            </value>
+            <value>
+                <fullName>Sebastian Steinert</fullName>
+                <default>false</default>
+                <label>Sebastian Steinert</label>
+            </value>
+            <value>
+                <fullName>Simon Peeck</fullName>
+                <default>false</default>
+                <label>Simon Peeck</label>
+            </value>
+            <value>
+                <fullName>Sören Greiff</fullName>
+                <default>false</default>
+                <label>Sören Greiff</label>
+            </value>
+            <value>
+                <fullName>Stanislav Ockasov</fullName>
+                <default>false</default>
+                <label>Stanislav Ockasov</label>
+            </value>
+            <value>
+                <fullName>Svenja Weber</fullName>
+                <default>false</default>
+                <label>Svenja Weber</label>
+            </value>
+            <value>
+                <fullName>Thomas Kaplanski</fullName>
+                <default>false</default>
+                <label>Thomas Kaplanski</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

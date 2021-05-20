@@ -153,7 +153,7 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <gender>Feminine</gender>
+<!--     <gender>Feminine</gender> -->
     <label>Follow-up Task</label>
     <nameField>
         <displayFormat>FT-{00000000}</displayFormat>

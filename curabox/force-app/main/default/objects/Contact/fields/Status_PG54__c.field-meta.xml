@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_PG54__c</fullName>
+    <externalId>false</externalId>
+    <label>Status PG54</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Interessent</fullName>
+                <default>false</default>
+                <label>Interessent</label>
+            </value>
+            <value>
+                <fullName>Kandidat</fullName>
+                <default>false</default>
+                <label>Kandidat</label>
+            </value>
+            <value>
+                <fullName>Kunde</fullName>
+                <default>false</default>
+                <label>Kunde</label>
+            </value>
+            <value>
+                <fullName>Kündigung</fullName>
+                <default>false</default>
+                <label>Kündigung</label>
+            </value>
+            <value>
+                <fullName>Vorgang geschlossen</fullName>
+                <default>false</default>
+                <label>Vorgang geschlossen</label>
+            </value>
+            <value>
+                <fullName>Formular unerwünscht</fullName>
+                <default>false</default>
+                <label>Formular unerwünscht</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
